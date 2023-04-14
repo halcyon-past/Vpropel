@@ -1,0 +1,201 @@
+body {
+    height: 150vh;
+    margin: 0;
+}
+.attend-pod-test-container{
+    margin-left: 3rem;
+}
+.code-editor-action-bar {
+    display: flex;
+    flex-direction: row;
+    background-color: #f3f7f7;
+    border-bottom: 1px solid #b7c9cc;
+    border-top: 1px solid #e7eeef;
+    padding: 5px;
+}
+.code-editor-action-bar:hover {
+    box-shadow: 10px;
+}
+.action-bar-item {
+    display: flex;
+    flex-direction: row;
+    margin-right: 10px;
+}
+.custom-io-boxes {
+    display: none;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.io-box textarea {
+    resize: none;
+    overflow: auto;
+}
+.navbar-sections {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+}
+div.secondary-menu {
+    background-color:#F5FFD0;
+    padding-bottom: 1em;
+}
+div.menu-items{
+    position: relative;
+    display: flex;
+    left: 10%;
+}
+div.menu-item{
+    margin-left: 1em;
+}
+div.menu-item .btn{
+    border: none;
+    background: transparent;
+    font-weight: 600;
+}
+a.dropdown-item{
+    margin-top : 0;
+    cursor: pointer;
+}
+div.dropdown-menu{
+    margin-top: 0.5em;
+}
+div#ques-display{
+    display: none;
+}
+div.card{
+    padding: 1em;
+}
+div.jumbotron{
+    background-color: transparent;
+    margin-bottom: 20px;
+}
+.btn{
+    outline: none !important;
+    margin-top: 1em;
+}
+.badge{
+    font-size: 1em;
+}
+body{
+    padding: 0;
+    overflow-x: hidden;
+}
+nav.navbar#main{
+    background-color: #386B8C;
+    position: sticky;
+    top: 0px;
+    z-index: 9999;
+}
+img#college-logo{
+    margin-right: 1em;
+}
+nav.navbar#secondary{
+    background: #F5FFD0;
+}
+
+div#given-question {
+    padding: 1em;
+}
+#editor {
+    width: 100%;
+    height: 50vh;
+    overflow: auto;
+    font-size: 18px;
+}
+#precode-readonly{
+    height: 200px;
+    font-size: 18px;
+}
+#postcode-readonly{
+    height: 200px;
+    font-size: 18px;
+}
+div#question {
+    background-color: #f9f9f9;
+    margin-bottom: 10px;
+}
+
+textarea {
+    background-color: #ffffff;
+}
+.question-title-style {
+    color: green;
+}
+.action-buttons {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+.action-button {
+    margin-right: 5px;
+}
+.custom-io-section {
+    margin: 10px;
+    margin-left: 0;
+}
+.checkbox-checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+}
+
+.vpropel-checkbox-container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.vpropel-checkbox-container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+}
+
+.vpropel-checkbox-container:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+
+.vpropel-checkbox-container input:checked ~ .checkmark {
+    background-color: #2196F3;
+}
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.vpropel-checkbox-container input:checked ~ .checkmark:after {
+    display: block;
+}
+
+.vpropel-checkbox-container .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
