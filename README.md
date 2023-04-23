@@ -17,7 +17,7 @@ To give your name all you have to do is
 <br>
 Type your Name and register Number seperated by tilde(~)
 ```
-"YOUR NAME ~YOUR REGISTER NUMBER
+"YOUR NAME ~YOUR REGISTER NUMBER"
 ```
 in this manner
 <br>
